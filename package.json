@@ -1,0 +1,17 @@
+{
+  "name": "albedo-noth-bot",
+  "version": "1.0.0",
+  "description": "Albedo WhatsApp bot powered by Noth IA, with registration, LID/JID identity and two commands.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.20",
+    "dotenv": "^16.6.1",
+    "pino": "^9.9.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
